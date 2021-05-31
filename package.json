@@ -20,8 +20,12 @@
   "homepage": "https://github.com/ElGutiz/PaginaPersonal#readme",
   "dependencies": {
     "eslint": "^7.27.0",
+    "font-awesome": "^4.7.0",
+    "lodash.shuffle": "^4.2.0",
+    "mathjs": "^9.4.1",
     "mini-css-extract-plugin": "^1.6.0",
     "react": "^16.0.0",
+    "react-card-flip": "^1.0.11",
     "react-dom": "^16.0.0",
     "react-reveal": "^1.2.2",
     "react-visibility-sensor": "^5.1.1"

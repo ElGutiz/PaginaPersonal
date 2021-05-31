@@ -1,0 +1,46 @@
+{
+  "name": "paginapersonal",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElGutiz/PaginaPersonal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElGutiz/PaginaPersonal/issues"
+  },
+  "homepage": "https://github.com/ElGutiz/PaginaPersonal#readme",
+  "dependencies": {
+    "eslint": "^7.27.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-reveal": "^1.2.2",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "postcss": "^8.3.0",
+    "postcss-loader": "^5.3.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

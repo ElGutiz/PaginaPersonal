@@ -5,6 +5,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: space-between;
+    width: 700px;
 }
 
 .Title{

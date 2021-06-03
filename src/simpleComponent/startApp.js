@@ -110,6 +110,20 @@ class StartApp extends React.Component {
 
     return (
       <div>
+        <div className="Who">
+          <h1>J. G.</h1>
+          <p>
+            Estudiante de tercer año de la universidad del Valle de Guatemala
+            y aprendiz de las artes oscuras de diseño web...
+          </p>
+          <div style={{ width: "290px", marginLeft: "790px" }}>
+            <text><i className="fa fa-github" /></text>
+            <text><i className="fa fa-user-secret" /></text>
+            <text><i className="fa fa-comments" /></text>
+            <text><i className="fa fa-search" /></text>
+          </div>
+          <h2>Algunos trabajos personales...</h2>
+        </div>
         <div className="No1Work">
           <div className="row">
             <div className="MemoryGameComponent column">

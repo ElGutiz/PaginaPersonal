@@ -98,3 +98,49 @@ h1 {
     color: black;
     box-shadow: inset 0px -80px 0px 30px rgb(255, 255, 255);
 }
+
+.Who {
+    height: 800px;
+    padding-top: 140px;
+    padding-bottom: 10px;
+}
+
+.Who h1 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 820px;
+    font-weight: 400;
+    color: white;
+    font-size: 100px;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.Who p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    margin-left: 450px;
+}
+
+.Who h2 {
+    align-self: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: white;
+    font-size: 80px;
+    margin-top: 250px;
+}
+
+.Who text {
+    font-size: 40px;
+    margin-left: 25px;
+    color: white;
+}

@@ -12,6 +12,7 @@ import ClearButton from "../ZComponents/Calculadora/ClearButton";
 import Input from "../ZComponents/Calculadora/Input";
 
 import AboutProjectOne from "../ZComponents/ProjectOne/AboutProjectOne";
+import HCIP from "../ZComponents/HCIP/HCIP";
 import DoughnutChart from "../ZComponents/Chart/Chart";
 import Contacto from "../ZComponents/Contacto/Contacto";
 
@@ -299,6 +300,7 @@ class StartApp extends React.Component {
           </VisibilitySensor>
         </div>
         <AboutProjectOne />
+        <HCIP />
         <DoughnutChart />
         <Contacto />
       </div>

@@ -21,7 +21,7 @@ class AboutProjectOne extends React.Component {
       <div>
         <VisibilitySensor
           partialVisibility="top"
-          offset={{ top: 700 }}
+          offset={{ top: 720 }}
           onChange={(isVisible) => {
             this.setState({ visibility: isVisible });
           }}

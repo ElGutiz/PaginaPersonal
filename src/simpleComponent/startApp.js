@@ -11,6 +11,8 @@ import Button from "../ZComponents/Calculadora/Button";
 import ClearButton from "../ZComponents/Calculadora/ClearButton";
 import Input from "../ZComponents/Calculadora/Input";
 
+import AboutProjectOne from "../ZComponents/ProjectOne/AboutProjectOne";
+
 import "font-awesome/css/font-awesome.css";
 
 import "../ZStyles/startApp_style.css";
@@ -294,6 +296,7 @@ class StartApp extends React.Component {
             </Fade>
           </VisibilitySensor>
         </div>
+        <AboutProjectOne />
       </div>
     );
   }

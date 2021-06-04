@@ -12,6 +12,7 @@ import ClearButton from "../ZComponents/Calculadora/ClearButton";
 import Input from "../ZComponents/Calculadora/Input";
 
 import AboutProjectOne from "../ZComponents/ProjectOne/AboutProjectOne";
+import DoughnutChart from "../ZComponents/Chart/Chart";
 import Contacto from "../ZComponents/Contacto/Contacto";
 
 import "font-awesome/css/font-awesome.css";
@@ -298,6 +299,7 @@ class StartApp extends React.Component {
           </VisibilitySensor>
         </div>
         <AboutProjectOne />
+        <DoughnutChart />
         <Contacto />
       </div>
     );
